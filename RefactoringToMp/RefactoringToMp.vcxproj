@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -13,18 +13,21 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88181888-5CF5-441E-BEB7-AE49556A720D}</ProjectGuid>
     <RootNamespace>RefactoringToMp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -62,7 +65,11 @@
   <ItemGroup>
     <ClCompile Include="edit_img_block.cpp" />
     <ClCompile Include="edit_poi_blocks.cpp" />
-    <ClCompile Include="edit_polygon_block.cpp" />
+    <ClCompile Include="edit_polygon_block_0x00.cpp" />
+    <ClCompile Include="edit_polygon_block_0x54.cpp" />
+    <ClCompile Include="edit_polygon_all_blocks.cpp" />
+    <ClCompile Include="edit_polygon_block_M_I_A.cpp" />
+    <ClCompile Include="edit_polygon_block_U_A_T.cpp" />
     <ClCompile Include="edit_polyline_block.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mini_functions.cpp" />

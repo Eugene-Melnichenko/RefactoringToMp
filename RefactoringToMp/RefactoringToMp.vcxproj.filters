@@ -39,10 +39,22 @@
     <ClCompile Include="edit_polyline_block.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="edit_polygon_block.cpp">
+    <ClCompile Include="mini_functions.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="mini_functions.cpp">
+    <ClCompile Include="edit_polygon_block_0x54.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_polygon_block_M_I_A.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_polygon_block_U_A_T.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_polygon_block_0x00.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_polygon_all_blocks.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

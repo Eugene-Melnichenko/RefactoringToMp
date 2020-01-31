@@ -26,3 +26,24 @@ void vector_add_KeyLabel_and_Value(vector<vector<MyStruct>>& my_vector, int inde
 			KeyValue.value = my_value;
 			my_vector[index].push_back(KeyValue);
 }
+
+void InfoOfTypesData(int all_points, int true_points, string type )
+{
+	int false_points = all_points - true_points;
+    cout << "\t- " << all_points << " " << type << ": " << true_points << " обработано, " << false_points << " нет" << endl;
+}
+
+void info_message(vector<vector<MyStruct>>& img_str)
+{
+    string name;
+    for (int i = 0; i < img_str[0].size();i++) {
+        if (img_str[0][i].key == "Name") {
+            name = img_str[0][i].value;
+            break;
+        }
+    }
+    if (name != "")
+        cout << "Во время чтения файла .mp с именем " + name + ", было найдено:" << endl;
+    else
+        cout << "Во время чтения файла .mp было найдено:" << endl;
+}
